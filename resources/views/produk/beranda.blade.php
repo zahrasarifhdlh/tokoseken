@@ -2,7 +2,7 @@
 @section('konten')
     <body>
         <h1>ini data produk kami</h1>
-        <a href="/beranda/tambah" type="button" class="btn btn-outline-primary mb-3 mt-4">Tambah Data</a>
+        <a href="/beranda/tambah" type="button" class="btn btn-outline-primary mb-3 mt-4">Tambah Data Baru</a>
         @if (session('success'))
             <div class="allert allert-success">
 
